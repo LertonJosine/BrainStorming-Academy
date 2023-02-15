@@ -1,0 +1,5 @@
+bs_venv
+__init__.py
+db.sqlite3
+.git
+__pycache__
