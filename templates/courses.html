@@ -1,4 +1,5 @@
 {% block content %}
+<p><a href="{% url 'create_course' %}">Create course</a></p>
 {% for course in courses %}
 <p><a href="#">{{course}}</a></p>
 {% endfor %}

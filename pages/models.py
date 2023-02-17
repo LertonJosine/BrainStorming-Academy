@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth import get_user_model
 # Create your models here.
-
+# professores = get_user_model().objects
 
 class Curso(models.Model):
     alunos = models.ManyToManyField(get_user_model(), related_name="alunos")
